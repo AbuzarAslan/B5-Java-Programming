@@ -52,4 +52,26 @@ public class StringUtil {
 
         return unique;
     }
+
+    /**
+     * This method reverses the given string
+     * @param str is the given string
+     * @return the reversed version
+     */
+    public static String reverse (String str){
+
+        String reversed = "";
+        for (int i = str.length()-1; i >= 0 ; i--) {
+            reversed += str.charAt(i);
+        }
+
+        return reversed;
+    }
+
+
+    // TODO: add a reusable method for duplicateLetters (String Str)
+
+
+
+
 }
