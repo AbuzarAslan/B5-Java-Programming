@@ -12,7 +12,7 @@ Given a String with three words separated by spaces. Reverse only the second wor
     Ouput:
     I evol java
  */
-public class ReverseMiddle {
+public class  ReverseMiddle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Please, enter a sentence with 3 words: "); // I Love Java
