@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class SpaceProgram {
     public static void main(String[] args) {
         Scanner key = new Scanner(System.in);
-        System.out.print("Please, a sentence: ");
+        System.out.print("Please, enter a sentence: ");
         String userInput = key.nextLine().replace(" ",  "_");  // more java is good ----- > .replace(" ", "_"); -- > more_java_is_good
         // java --- > j a v a
         // java book -> j a v a _ b o o k
