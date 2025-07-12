@@ -19,7 +19,7 @@ public class UniqueCharacters {
         for ( char each: strArr){ // [l, o, o, p, c, a, m, p ]
 
             if (!unique.contains( each+"" )) {
-                unique += each;  // lopcam
+                unique += each;  // lopcam    // this method tecnically is RemoveDuplicate actually
             }
 
         }

@@ -24,7 +24,7 @@ public class CamelCase {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Please, enter multiple words in sentence : ");
-        String sentence = input.nextLine();
+        String sentence = input.nextLine().trim();
 
         String camelCase = "";
 
