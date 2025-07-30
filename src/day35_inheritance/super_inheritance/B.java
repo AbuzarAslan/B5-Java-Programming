@@ -5,6 +5,7 @@ public class B extends A {
     //  super();
     //}
     public B (double d) {
+
         super(d);
     }
 }
