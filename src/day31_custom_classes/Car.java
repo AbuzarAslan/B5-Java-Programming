@@ -24,7 +24,7 @@ package day31_custom_classes;
             return true if the gas level is below 25
             otherwise return false
 
-    Create a separate class to create Car objects and test the methods created
+    Create a separate class to create Car objects and A the methods created
  */
 public class Car {
 

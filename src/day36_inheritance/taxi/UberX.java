@@ -15,7 +15,7 @@ public class UberX extends Uber {
         return totalPrice;
     }
 
-//    public void test (){
+//    public void A (){
 //        calculatePrice(10);
 //        super.calculatePrice(10);
 //    }
