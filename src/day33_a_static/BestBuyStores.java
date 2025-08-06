@@ -52,7 +52,7 @@ public class BestBuyStores {
         System.out.println("-----------------------------");
         // INSTANCE members canNOT be reach by class name - we need object
         //BestBuy.openStore();
-        //BestBuy.location = "12 test";
+        //BestBuy.location = "12 A";
 
         store1.openStore();
         store2.openStore();
