@@ -18,7 +18,7 @@ public class SecondTry2 {
             System.out.println("ArrayIndexOutOfBoundsException");
         }
 
-        System.out.println("Finish LIne");
+        System.out.println("Finish Line");
 
     }
 }
