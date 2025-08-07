@@ -1,4 +1,4 @@
-package day39_b_exception;
+package day40_exception.recap;
 
 public class SecondTry {
     public static void main(String[] args) {

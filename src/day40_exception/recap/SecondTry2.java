@@ -1,6 +1,6 @@
-package day39_b_exception;
+package day40_exception.recap;
 
-public class SecondTry {
+public class SecondTry2 {
     public static void main(String[] args) {
 
 
@@ -12,8 +12,10 @@ public class SecondTry {
             int [] nums = {1, 2, 3, 4};
             System.out.println(nums [8]); // ArrayIndexOutOfBoundsException
 
-        } catch (RuntimeException e){
-            System.out.println("Either NullPointerException or ArrayIndexOutOfBoundsException");
+        } catch (NullPointerException e){
+            System.out.println("NullPointerException");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBoundsException");
         }
 
         System.out.println("Finish Line");
